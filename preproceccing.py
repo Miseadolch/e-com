@@ -31,12 +31,9 @@ a = df[df.columns[4:]]
 double = len(a) - len(a.drop_duplicates())
 # double = 0, следовательно неявных дубликатов не обнаружено
 # заполнение пропусков
-stupid_nans = df.groupby(['month'])['region']
-df['region'].fillna(lambda x: stupid_nans[x])
-stupid_nans = df.groupby(['month'])['device']
-df['device'].fillna(lambda x: stupid_nans[x])
-stupid_nans = df.groupby(['month'])['channel']
-df['channel'].fillna(lambda x: stupid_nans[x])
-# print(len(df) - len(df.drop_duplicates())) -> 0 внезапные дубликаты не объявились)
+df['region'] = df.groupby('month')['region'].transform(lambda x: x.fillna(x.mode()[0]))
+df['device'] = df.groupby('month')['device'].transform(lambda x: x.fillna(x.mode()[0]))
+df['channel'] = df.groupby('month')['channel'].transform(lambda x: x.fillna(x.mode()[0]))
+
 
 
