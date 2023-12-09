@@ -26,12 +26,12 @@ E-commerce, реклама, продажи
 <br clear="left"/>
 
 <p>
-  <img src="https://user-images.githubusercontent.com/49817414/209364995-c404ea27-a52c-4a87-ab81-35efbd3d1d2b.png" width=15% align="left"/>
-  <h3>Михаил Щетинин - Тимлид | Программист - <a href="https://github.com/Miseadolch" title="Аккаунт на GitHub">GitHub</a></h3>
-  <b>Окончил Яндекс.Лицей</b>
+  <img src="https://private-user-images.githubusercontent.com/71454451/289266047-19b38cbc-2e8e-40f0-959e-75ee96016122.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIxMTg2ODMsIm5iZiI6MTcwMjExODM4MywicGF0aCI6Ii83MTQ1NDQ1MS8yODkyNjYwNDctMTliMzhjYmMtMmU4ZS00MGYwLTk1OWUtNzVlZTk2MDE2MTIyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjA5VDEwMzk0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTViYzYxYWVlYWIwOWY2MWJmNGRjMDBhM2RhYWQwZjczODAxNDQzZjNiNDU2MmU5MDA4ZWI3NjM4Y2Y4OGY1YTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.VpBQ3U7lxfAYSyCLuWO5PjaXN68_RL-62cdbXxhEMO4" width=15% align="left"/>
+  <h3>Михаил Щетинин - Тимлид | Аналитик - <a href="https://github.com/Miseadolch" title="Аккаунт на GitHub">GitHub</a></h3>
+  <b>Окончил Яндекс.Лицей и Интенсивы по Большим данным</b>
   </br>
   <p>
-    Построение графовой базы | Парсинг | Работа с neo4j
+    Предобработка данных | Аналитический и графический анализ | 
   </p>
 </p>
 
@@ -40,11 +40,11 @@ E-commerce, реклама, продажи
 
 <p>
   <img src="https://user-images.githubusercontent.com/49817414/209367182-cb6dfa81-cf0d-4293-85f1-c9de3e333724.png" width=15% align="left"/>
-  <h3>Артём Суханов - Техлид | Программист - <a href="https://github.com/stakancheck/" title="Аккаунт на GitHub">GitHub</a></h3>
-  <b>Окончил IT академию Samsung</b>
+  <h3>Рауль Альрави - Аналитик - <a href="https://github.com/TerBee4" title="Аккаунт на GitHub">GitHub</a></h3>
+  <b>Окончил Яндекс.Лицей</b>
   </br>
   <p>
-    Загрузка сайтов | Парсинг | Ведение репозитория 
+    Предобработка данных | Проведение рассчетов |
   </p>
 </p>
 
@@ -53,11 +53,11 @@ E-commerce, реклама, продажи
 
 <p>
   <img src="https://user-images.githubusercontent.com/49817414/209368113-80ef5a7e-706c-4cb8-a3a8-31996c3fc7f3.png" width=15% align="left"/>
-  <h3>Максим Гаджиев - Программист | Аналитик - <a href="https://github.com/KapacukXD" title="Аккаунт на GitHub">GitHub</a></h3>
-  <b>Окончил Яндекс.Лицей</b>
+  <h3>Мария Константинова - Аналитик - <a href="https://github.com/CreamBrulee" title="Аккаунт на GitHub">GitHub</a></h3>
+  <b>Окончила Яндекс.Лицей</b>
   </br>
   <p>
-    Анализ сайтов | Парсинг
+    Предобработка данных | Построение дашбордов | 
   </p>
 </p>
 
