@@ -12,3 +12,56 @@
 ## Тема
 E-commerce, реклама, продажи
 
+## Команда
+
+<br clear="left"/>
+
+<p>
+  <img src="https://private-user-images.githubusercontent.com/71454451/289265391-dae9c98d-b015-4a8b-822f-47ac9c8eb78c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIxMTgwMDQsIm5iZiI6MTcwMjExNzcwNCwicGF0aCI6Ii83MTQ1NDQ1MS8yODkyNjUzOTEtZGFlOWM5OGQtYjAxNS00YThiLTgyMmYtNDdhYzljOGViNzhjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjA5VDEwMjgyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY0ODdhY2RlNjgyODZjNzExNDRiMzM0NDJkNTAyNGFhODhhN2FiZDRhNTUzNWExYjIzMWQwNmJmYWIwNzljYjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.4ch6k2-dVY6VSrW32KXJMey7ongjvswik6vPEv3Oiwo" width=15% align="left"/>
+  <h3>Иван Катрин - Куратор проекта</h3>
+  <a href="https://academy.yandex.ru/"><img src="https://user-images.githubusercontent.com/49817414/209367782-c1ad1ee8-cf76-44d2-ba91-4e9d8ce6b2eb.png" title="Академия Яндекса"/></a>
+</p>
+
+</br>
+<br clear="left"/>
+
+<p>
+  <img src="https://user-images.githubusercontent.com/49817414/209364995-c404ea27-a52c-4a87-ab81-35efbd3d1d2b.png" width=15% align="left"/>
+  <h3>Михаил Щетинин - Тимлид | Программист - <a href="https://github.com/Miseadolch" title="Аккаунт на GitHub">GitHub</a></h3>
+  <b>Окончил Яндекс.Лицей</b>
+  </br>
+  <p>
+    Построение графовой базы | Парсинг | Работа с neo4j
+  </p>
+</p>
+
+</br>
+<br clear="left"/>
+
+<p>
+  <img src="https://user-images.githubusercontent.com/49817414/209367182-cb6dfa81-cf0d-4293-85f1-c9de3e333724.png" width=15% align="left"/>
+  <h3>Артём Суханов - Техлид | Программист - <a href="https://github.com/stakancheck/" title="Аккаунт на GitHub">GitHub</a></h3>
+  <b>Окончил IT академию Samsung</b>
+  </br>
+  <p>
+    Загрузка сайтов | Парсинг | Ведение репозитория 
+  </p>
+</p>
+
+</br>
+<br clear="left"/>
+
+<p>
+  <img src="https://user-images.githubusercontent.com/49817414/209368113-80ef5a7e-706c-4cb8-a3a8-31996c3fc7f3.png" width=15% align="left"/>
+  <h3>Максим Гаджиев - Программист | Аналитик - <a href="https://github.com/KapacukXD" title="Аккаунт на GitHub">GitHub</a></h3>
+  <b>Окончил Яндекс.Лицей</b>
+  </br>
+  <p>
+    Анализ сайтов | Парсинг
+  </p>
+</p>
+
+
+<br clear="left"/>
+
+</br>
