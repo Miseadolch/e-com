@@ -26,7 +26,7 @@ E-commerce, реклама, продажи
 <br clear="left"/>
 
 <p>
-  <img src="https://private-user-images.githubusercontent.com/71454451/289267232-1e79639d-4bbf-4bbf-98d5-5404c07dea3f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIxMjAwNTcsIm5iZiI6MTcwMjExOTc1NywicGF0aCI6Ii83MTQ1NDQ1MS8yODkyNjcyMzItMWU3OTYzOWQtNGJiZi00YmJmLTk4ZDUtNTQwNGMwN2RlYTNmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjA5VDExMDIzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk3ZDJlODFkYjlkZjcwOWNmN2VmYzg0NTRhMmZmNTllNDZhZDJiMWMxMGU1NjMwYmU4M2ZjM2E5OGIwNWJhYWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.V85yVLwXiuWjW4dK4rMZlXTBe2upXw9KzP9JRaK7bnA" width=15% align="left"/>
+  <img src="https://github.com/Miseadolch/e-com/blob/main/photos/Untitled2.png" width=15% align="left"/>
   <h3>Михаил Щетинин - Тимлид | Аналитик - <a href="https://github.com/Miseadolch" title="Аккаунт на GitHub">GitHub</a></h3>
   <b>Окончил Яндекс.Лицей и Интенсивы по Большим данным</b>
   </br>
