@@ -28,7 +28,7 @@ E-commerce, реклама, продажи
 <p>
   <img src="https://github.com/Miseadolch/e-com/blob/main/photos/Untitled2.png" width=15% align="left"/>
   <h3>Михаил Щетинин - Тимлид | Аналитик - <a href="https://github.com/Miseadolch" title="Аккаунт на GitHub">GitHub</a></h3>
-  <b>Окончил Яндекс.Лицей и Яндекс.Интенсивы по большим данным</b>
+  <b>Окончил Яндекс.Лицей и Яндекс.Интенсивы по Big Data</b>
   </br>
   <p>
     Предобработка данных | Аналитический и графический анализ
