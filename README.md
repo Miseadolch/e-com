@@ -3,5 +3,5 @@
 
 <p align="center">
 <a href="https://academy.yandex.ru/"><img src="https://user-images.githubusercontent.com/49817414/209363612-96dacd8e-b0a4-4ffc-bfc0-ac3da6a29145.png" width=40%  title="Академия Яндекса"/></a>&nbsp;&nbsp;&nbsp;
-<a href="https://academy.yandex.ru/intensive/bigdata"><img src="https://user-images.githubusercontent.com/49817414/209363621-101f789a-d760-41bf-94f6-06b24fe1ded9.png" width=40%  title="Интенсив по большим данным"/></a>
+<a href="https://academy.yandex.ru/intensive/data-analysis"><img src="https://user-images.githubusercontent.com/49817414/209363621-101f789a-d760-41bf-94f6-06b24fe1ded9.png" width=40%  title="Интенсив по анализу данных"/></a>
 </p>
