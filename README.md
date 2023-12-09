@@ -39,7 +39,7 @@ E-commerce, реклама, продажи
 <br clear="left"/>
 
 <p>
-  <img src="https://user-images.githubusercontent.com/49817414/209367182-cb6dfa81-cf0d-4293-85f1-c9de3e333724.png" width=15% align="left"/>
+  <img src="https://private-user-images.githubusercontent.com/71454451/289266708-de995554-6c74-47bf-b91a-431b0c17e631.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIxMTk0ODYsIm5iZiI6MTcwMjExOTE4NiwicGF0aCI6Ii83MTQ1NDQ1MS8yODkyNjY3MDgtZGU5OTU1NTQtNmM3NC00N2JmLWI5MWEtNDMxYjBjMTdlNjMxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjA5VDEwNTMwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQxMGEzMjA1NDE0YjRkZjIwMWIzZDQzZTNlNDVhMGRmYmE1NTJlOTRiY2Q3NTEyM2E2OWI5ZjBjMTQwMmI3YzUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.7yLztepkZFNOwzxwsVrRgvzREa8fuBoNlxD13vf9Ks0" width=15% align="left"/>
   <h3>Рауль Альрави - Аналитик - <a href="https://github.com/TerBee4" title="Аккаунт на GitHub">GitHub</a></h3>
   <b>Окончил Яндекс.Лицей</b>
   </br>
