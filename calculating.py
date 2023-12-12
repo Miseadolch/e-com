@@ -47,9 +47,13 @@ mau_by_channel = df.groupby(['month', 'channel'])['user_id'].unique().apply(lamb
 top_mau_by_channel = df.groupby(['month', 'channel'])['user_id'].unique().apply(lambda x: len(x)
                                                                                 ).sort_values(ascending=False)[:3]
 
-
-
-
+# ТАБЛИЦА, определяющая какой вид источника принес больше всего платящих пользователей и большую сумму продаж
+table = pd.DataFrame()
+table['user_id'] = df.groupby('channel')['user_id'].apply(lambda x: len(x))
+table['unique_users'] = df.groupby('channel')['user_id'].unique().apply(lambda x: len(x))
+table['payer'] = df.groupby('channel')['payer'].sum()
+table['revenue'] = df.groupby('channel')['revenue'].sum()
+print(table.sort_values(by=['payer', 'revenue'], ascending=False)[:1])
 
 
 
