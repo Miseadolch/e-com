@@ -37,9 +37,17 @@ top_channel_check = df.groupby(['channel'])['revenue'].apply(lambda x: round(x.m
 #ТОП-3 региона по среднему чеку
 top_region_check = df.groupby(['region'])['revenue'].apply(lambda x: round(x.mean())
                                                              ).sort_values(ascending=False)[:3]
+
+
 #ТОП-3 месяца по среднему чеку с разбивкой по регионам
-top_region_check_by_regions = df.groupby(['month', 'region'])['revenue'].apply(lambda x: round(x.mean())
-                                                             ).sort_values(ascending=False)
+top_region_check_by_regions = df.groupby(['region', 'month'])['revenue'].apply(lambda x: round(x.sum() / len(x))
+                                                             ).sort_values(ascending=False)[:3]
+top_region_check_by_regions = top_region_check_by_regions.reset_index()
+months = {5: 'май', 6: 'июнь', 7: 'июль', 8: 'август', 9: 'сентябрь', 10: 'октябрь'}
+top_region_check_by_regions['month'] = top_region_check_by_regions['month'].apply(lambda x: months[x])
+#print(top_region_check_by_regions)
+
+
 #MAU с разбивкой по рекламным каналам
 mau_by_channel = df.groupby(['month', 'channel'])['user_id'].unique().apply(lambda x: len(x))
 
