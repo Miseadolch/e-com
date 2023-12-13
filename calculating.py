@@ -49,11 +49,12 @@ top_region_check_by_regions['month'] = top_region_check_by_regions['month'].appl
 
 
 #MAU с разбивкой по рекламным каналам
-mau_by_channel = df.groupby(['month', 'channel'])['user_id'].unique().apply(lambda x: len(x))
+mau_by_channel = df.groupby(['channel', 'month'])['user_id'].unique().apply(lambda x: len(x)).reset_index()
 
 #ТОП-3 рекламных каналов по количеству уникальных пользователей в месяц
-top_mau_by_channel = df.groupby(['month', 'channel'])['user_id'].unique().apply(lambda x: len(x)
-                                                                                ).sort_values(ascending=False)[:3]
+top_mau_by_channel = mau_by_channel.groupby('channel')['user_id'].apply(lambda x: round(x.mean()))
+top_mau_by_channel = top_mau_by_channel.sort_values(ascending=False)[:3]
+#print(top_mau_by_channel)
 
 # ТАБЛИЦА, определяющая какой вид источника принес больше всего платящих пользователей и большую сумму продаж
 table = pd.DataFrame()
