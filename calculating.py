@@ -26,10 +26,10 @@ purchases = len(df['revenue'].dropna())
 count_of_users = len(df['user_id'].unique())
 one_user_mean = round(count_of_users / purchases, 1)
 #Средняя продолжительность сессии по рекламным каналам
-session_channel = df.groupby(['channel'])['sessiondurationsec'].sum()
+session_channel = df.groupby(['channel'])['sessiondurationsec'].mean()
 
 #Средняя продолжительность сессии по типу устройства
-device_channel = df.groupby(['device'])['sessiondurationsec'].sum()
+device_channel = df.groupby(['device'])['sessiondurationsec'].mean()
 
 #ТОП-3 рекламных канала по среднему чеку
 top_channel_check = df.groupby(['channel'])['revenue'].apply(lambda x: round(x.mean())
