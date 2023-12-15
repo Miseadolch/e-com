@@ -33,7 +33,18 @@ lin_regr.fit(x_train_new, y_train)
 predict = lin_regr.predict(x_test_new)
 predict = [round(i) for i in predict]
 print(predict)
-print(set(predict))
+# анализ ошибок
+r2_score = round(r2_score(y_test, predict), 2)
+MAPE = round(mean_absolute_percentage_error(y_test, predict) * 100, 2)
+MAE = round(mean_absolute_error(y_test, predict), 2)
+MSE = round(mean_squared_error(y_test, predict), 2)
+RMSE = round(mean_squared_error(y_test, predict) ** 0.5, 2)
+print('r2_score =', r2_score) #разница между выборками в наборе данных и прогнозами, сделанными моделью.
+print('MAPE =', MAPE) #Средняя абсолютная процентная ошибка
+print('MAE =', MAE) #абсолютная ошибку — то, насколько спрогнозированное число разошлось с фактическим числом
+print('MSE =', MSE) # оценка среднего значения квадрата ошибок
+print('RMSE =', RMSE) #среднее квадратичное различий между прогнозами
+
 
 
 
