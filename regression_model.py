@@ -31,7 +31,6 @@ x_test_new = get_ohe(x_test, "channel")
 lin_regr = LinearRegression()
 lin_regr.fit(x_train_new, y_train)
 predict = lin_regr.predict(x_test_new)
-predict = [round(i) for i in predict]
 print(predict)
 # анализ ошибок
 r2_score = round(r2_score(y_test, predict), 2)
