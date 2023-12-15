@@ -13,7 +13,7 @@ x['channel'] = df['channel']
 #x['channel'] = df['channel']
 #df['revenue'] = df['revenue'].fillna(0)
 y = df['payer']
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.15, random_state=42)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.25, train_size=0.75, random_state=42)
 ohe = OneHotEncoder(sparse_output=False, drop='first', handle_unknown='ignore')
 ohe.fit(x_train[['channel']])
 
