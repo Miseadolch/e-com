@@ -2,18 +2,28 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
-from sklearn.metrics import r2_score, mean_absolute_percentage_error
+from sklearn.metrics import r2_score, mean_absolute_percentage_error, mean_squared_error, mean_absolute_error
 
 
 df = pd.read_csv(r'res.csv', sep=",", decimal='.', skipinitialspace=True)
+# целевая переменная
+y = df.groupby('session_date')['payer'].sum().reset_index()['payer']
+# количество дневных заходов по рекламным каналам
+x = df.groupby(['session_date', 'channel'])['user_id'].count().reset_index()
+# замена рекламных каналов на процент платящих пользователей по каналам
+pro = {'социальные сети': 0.306, 'organic': 0.254, 'реклама у блогеров': 0.293, 'контекстная реклама': 0.264, 'email-рассылки': 0.261}
+x['weigth'] = x['channel'].apply(lambda t: pro[t])
+# соотношение рекламных каналов
+x['user_id'] = x['user_id'] * x['weigth']
+x = x.groupby('session_date')['user_id'].sum().reset_index()['user_id']
 
-
+df_merged = pd.DataFrame({'channel': x, 'sum_buy': y})
+# СТРОИМ МОДЕЛЬ
 x = pd.DataFrame()
-x['channel'] = df['channel']
-#x['channel'] = df['channel']
-#df['revenue'] = df['revenue'].fillna(0)
-y = df['payer']
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.25, train_size=0.75, random_state=42)
+x['channel'] = df_merged['channel']
+y = df_merged['sum_buy']
+
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.15, random_state=42)
 ohe = OneHotEncoder(sparse_output=False, drop='first', handle_unknown='ignore')
 ohe.fit(x_train[['channel']])
 
@@ -31,6 +41,8 @@ x_test_new = get_ohe(x_test, "channel")
 lin_regr = LinearRegression()
 lin_regr.fit(x_train_new, y_train)
 predict = lin_regr.predict(x_test_new)
+predict = [round(i) for i in predict]
+# ПРЕДСКАЗАНИЕ
 print(predict)
 # анализ ошибок
 r2_score = round(r2_score(y_test, predict), 2)
