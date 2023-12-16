@@ -24,7 +24,7 @@ all_check = round(df['revenue'].mean())
 # Сколько покупок в среднем совершает 1 пользователь?
 purchases = df['payer'].sum()
 count_of_users = len(df['user_id'].unique())
-one_user_mean = round(purchases / count_of_users, 1)
+one_user_mean = round(purchases / count_of_users, 2)
 
 #Средняя продолжительность сессии по рекламным каналам
 session_channel = df.groupby(['channel'])['sessiondurationsec'].mean()
