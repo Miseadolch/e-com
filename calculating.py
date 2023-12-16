@@ -22,9 +22,10 @@ df.loc[(559, 'channel')] = 'контекстная реклама'
 all_check = round(df['revenue'].mean())
 
 # Сколько покупок в среднем совершает 1 пользователь?
-purchases = len(df['revenue'].dropna())
+purchases = df['payer'].sum()
 count_of_users = len(df['user_id'].unique())
-one_user_mean = round(count_of_users / purchases, 1)
+one_user_mean = round(purchases / count_of_users, 1)
+
 #Средняя продолжительность сессии по рекламным каналам
 session_channel = df.groupby(['channel'])['sessiondurationsec'].mean()
 
