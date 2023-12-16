@@ -41,16 +41,16 @@ top_region_check = df.groupby(['region'])['revenue'].apply(lambda x: round(x.mea
 
 
 #ТОП-3 месяца по среднему чеку с разбивкой по регионам
-top_region_check_by_regions = df.groupby(['region', 'month'])['revenue'].apply(lambda x: round(x.sum() / len(x))
+top_region_check_by_regions = df.groupby(['month', 'region'])['revenue'].apply(lambda x: round(x.sum() / len(x))
                                                              ).sort_values(ascending=False)
 
 months = {5: 'май', 6: 'июнь', 7: 'июль', 8: 'август', 9: 'сентябрь', 10: 'октябрь'}
 top_region_check_by_regions = top_region_check_by_regions.reset_index()
 top_region_check_by_regions['month'] = top_region_check_by_regions['month'].apply(lambda x: months[x])
-region_check_by_regions = top_region_check_by_regions.groupby('region').apply(lambda x: x)
-region_check_by_regions = region_check_by_regions.drop('region', axis=1).rename(columns={"revenue": "средний_чек"})
-#print(region_check_by_regions)
-top_region_check_by_regions = top_region_check_by_regions.groupby('region')['revenue'].apply(lambda x: round(x.mean())
+region_check_by_regions = top_region_check_by_regions.groupby('month').apply(lambda x: x)
+region_check_by_regions = region_check_by_regions.drop('month', axis=1).rename(columns={"revenue": "средний_чек"})
+print(region_check_by_regions)
+top_region_check_by_regions = top_region_check_by_regions.groupby('month')['revenue'].apply(lambda x: round(x.mean())
                                                              ).sort_values(ascending=False)[:3].reset_index().rename(columns={"revenue": "средний_чек"})
 #print(top_region_check_by_regions)
 
